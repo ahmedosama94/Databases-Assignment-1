@@ -10,6 +10,7 @@ import java.util.Hashtable;
 
 import exceptions.DBAppException;
 
+@SuppressWarnings("serial")
 public class Table implements Serializable {
 
 	static File x = new File("Metadata.csv");
